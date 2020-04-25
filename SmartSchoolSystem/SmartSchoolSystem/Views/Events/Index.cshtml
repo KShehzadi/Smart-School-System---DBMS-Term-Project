@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.EventViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<h2 class="text-center">Events</h2>
+
+@if (HelperClass.account == "Admin")
+{
+    <div style="padding-top:20px; padding-bottom:20px; align-self:center;padding-left:600px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Create", "Events")>Create New Event</a>
+    </div>
+}
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <div class="text-center" style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+            <span class="icons c3"><i class="fa fa-trophy"></i></span>
+            <div class="box-area">
+                <h3>@item.name</h3>
+                <p>@item.description</p>
+                <p>Contact: @item.contact</p>
+                <p>Date: @item.date.ToShortDateString()</p>
+                <p>Start Time: @item.startTime.TimeOfDay.ToString()</p>
+                <p>End Time: @item.endTime.TimeOfDay.ToString()</p>
+                <p>Charges: @item.charges</p>
+                <br />
+                @if (HelperClass.account == "Admin")
+                {
+                    <div>
+                        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Edit", "Events", new { id = item.id })>Update</a>
+
+                        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Delete", "Events", new { id = item.id })>Delete</a>
+                    </div>
+                }
+            </div>
+        </div>
+        <br />
+    }
+}

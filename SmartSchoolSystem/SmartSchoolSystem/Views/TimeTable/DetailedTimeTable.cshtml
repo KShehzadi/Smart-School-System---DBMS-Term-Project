@@ -1,0 +1,62 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.TimeTableDetailedViewModels>
+
+@{
+    ViewBag.Title = "DetailedTimeTable";
+}
+
+<h2  style="padding-left:600px;">Time Table</h2>
+<br />
+<br />
+<h3 style="padding-left:600px;">Class Name: @ViewBag.Classname</h3>
+<div style="padding-left:200px;">
+    <table class="table" style="border: 5px solid #000000; border-radius: 5px;align-self:center; width: 80%; height: auto;">
+        <tr>
+            <th>
+                Day
+            </th>
+            <th>
+                08:00:00 AM
+            </th>
+            <th>
+                09:00:00 AM
+            </th>
+            <th>
+                10:00:00 AM
+            </th>
+            <th>
+                11:00:00 AM
+            </th>
+            <th>
+            12:00:00 PM
+            </th>
+
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td style="font-weight:bold;">
+                        @Html.DisplayFor(modelItem => item.dayname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.lecture1)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.lecture2)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.lecture3)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.lecture4)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.lecture5)
+                    </td>
+
+                </tr>
+            }
+        }
+    </table>
+</div>

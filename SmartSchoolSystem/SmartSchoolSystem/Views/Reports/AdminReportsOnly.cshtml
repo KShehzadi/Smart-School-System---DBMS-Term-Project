@@ -1,0 +1,531 @@
+﻿
+@{
+    ViewBag.Title = "AdminReportsOnly";
+}
+
+<h2 style="padding-left:430px;">Authorized Reports</h2>
+<div style="border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+    <h3 style="padding-left:40px;">Individual Reports</h3>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("AllStudents", "Reports")>All Students Report</a>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("ActiveStudents", "Reports")>Active Students Report</a>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("InActiveStudents", "Reports")>InActive Students Report</a>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("AllEvents", "Reports")>Events Report</a>
+    </div>
+    <div style="padding-left:20px;">
+</div>
+    </div>
+   <div style="border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+        <h3 style="padding-left:40px;">Class Wise  Reports</h3>
+
+        <div class="form-group">
+            <label for="Classlist" class="control-label col-md-2">Class: </label>
+            <div class="col-md-10">
+                <select id="Classlist" name="Classlist" class="form-control">
+                    @foreach (var o in ViewBag.Options)
+                    {
+                        <option value="@o.ToString()">@o.ToString()</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="subjectList" class="control-label col-md-2">Subject: </label>
+            <div class="col-md-10">
+                <select id="subjectList" name="subjectList" class="form-control">
+                    @foreach (var o in new SelectList(""))
+                    {
+                        <option value="@o.ToString()">@o.ToString()</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="Termlist" class="control-label col-md-2">Term: </label>
+            <div class="col-md-10">
+                <select id="Termlist" name="Termlist" class="form-control">
+                    @foreach (var o in ViewBag.Options1)
+            {
+                        <option value="@o.ToString()">@o.ToString()</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+    
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="classwisestudents" name="classwisestudents" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Class Wise Students Report</button>
+    </div>
+
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="classwiseactivestudents" name="classwiseactivestudents" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Class Wise Active Students Report</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="classwiseinactivestudents" name="classwiseinactivestudents" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Class Wise InActive Students Report</button>
+    </div>
+
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="totalmarksofeachclass" name="totalmarksofeachclass" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center"> Class Wise Total Marks Of Students</button>
+    </div>
+
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="termwisemarksofeachclass" name="termwisemarksofeachclass" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center"> Term Wise Marks Of Each Class</button>
+    </div>
+
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="classalltermmarks" name="classalltermmarks" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Class's All Term Marks</button>
+    </div>
+
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="classtimetable" name="classtimetable" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Class Time Table</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="classattendance" name="classattendance" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Class Attendance Report</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="detailedclassmarking" name="detailedstudentmarking" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Detailed Class Assessment Report</button>
+    </div>
+       </div>
+ <div style="border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+    <h3 style="padding-left:40px;">Students Reports</h3>
+
+    <div class="form-group">
+        <label for="Classlist1" class="control-label col-md-2">Class: </label>
+        <div class="col-md-10">
+            <select id="Classlist1" name="Classlist1" class="form-control">
+                @foreach (var o in ViewBag.Options)
+            {
+                    <option value="@o.ToString()">@o.ToString()</option>
+                }
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="studentList" class="control-label col-md-2">Registration Number: </label>
+        <div class="col-md-10">
+            <select id="studentList" name="studentList" class="form-control">
+                @foreach (var o in new SelectList(""))
+            {
+                    <option value="@o.ToString()">@o.ToString()</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Termlist1" class="control-label col-md-2">Term: </label>
+        <div class="col-md-10">
+            <select id="Termlist1" name="Termlist1" class="form-control">
+                @foreach (var o in ViewBag.Options1)
+            {
+                    <option value="@o.ToString()">@o.ToString()</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="studentinfo" name="studentinfo" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Student Information Report</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="studentsubject" name="studentsubject" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Student Subjects Report</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="studenttotalmarks" name="studenttotalmarks" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Student Total Marks Report</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="studenttermwisemarks" name="studenttermwisemarks" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Student Term Wise Marks Report</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="studentalltermmarks" name="studentalltermmarks" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Student's All Term Marks</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="studentattendance" name="studentattendance" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Student's Attendance</button>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <button id="detailedstudentmarking" name="detailedstudentmarking" class="btn btn-primary" style="background-color:black; border-color:black; align-self:center">Detailed Student Assessment Report</button>
+    </div>
+     </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#Classlist").change(function () {
+                $.get("/Reports/UpdateSubjects", { classname: $("#Classlist").find(":selected").text() }, function (data) {
+                    $("#subjectList").empty();
+                    $.each(data, function (index, row) {
+                        $("#subjectList").append("<option>" + row + "</option>")
+                    });
+                });
+            })
+        });
+        $(document).ready(function () {
+            $("#Classlist1").change(function () {
+                $.get("/Reports/UpdateStudents", { classname: $("#Classlist1").find(":selected").text() }, function (data) {
+                    $("#studentList").empty();
+                    $.each(data, function (index, row) {
+                        $("#studentList").append("<option>" + row + "</option>")
+                    });
+                });
+            })
+        });
+    </script>
+    <script>
+
+        $("#classwisestudents").click(function () {
+            gotoclasswisestudents();
+        })
+
+
+        function gotoclasswisestudents() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassWiseStudents'
+                }
+            })
+        }
+        $("#classwiseactivestudents").click(function () {
+            gotoclasswiseactivestudents();
+        })
+
+
+        function gotoclasswiseactivestudents() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassWiseActiveStudents'
+                }
+            })
+        }
+        $("#classtimetable").click(function () {
+            gotoclasstimetable();
+        })
+
+
+        function gotoclasstimetable() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassTimeTable'
+                }
+            })
+        }
+        $("#detailedclassmarking").click(function () {
+            gotodetailedclassmarking();
+        })
+
+
+        function gotodetailedclassmarking() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/DetailedClassMarking'
+                }
+            })
+        }
+        $("#classalltermmarks").click(function () {
+            gotoclassalltermmarks();
+        })
+
+
+        function gotoclassalltermmarks() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassAllTermMarks'
+                }
+            })
+        }
+        $("#classattendance").click(function () {
+            gotoclassattendance();
+        })
+
+
+        function gotoclassattendance() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassAttendance'
+                }
+            })
+        }
+        $("#classwiseinactivestudents").click(function () {
+            gotoclasswiseinactivestudents();
+        })
+
+
+        function gotoclasswiseinactivestudents() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassWiseInActiveStudents'
+                }
+            })
+        }
+        $("#totalmarksofeachclass").click(function () {
+            gotototalmarksofeachclass();
+        })
+
+
+        function gotototalmarksofeachclass() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassWiseStudentTotalMarks'
+                }
+            })
+        }
+
+        $("#studentsubject").click(function () {
+            gotostudentsubject();
+        })
+
+
+        function gotostudentsubject() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess2';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/StudentSubjects'
+                }
+            })
+        }
+        $("#detailedstudentmarking").click(function () {
+            gotodetailedstudentmarking();
+        })
+
+
+        function gotodetailedstudentmarking() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess2';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/DetailedStudentAssessment'
+                }
+            })
+        }
+        $("#studentinfo").click(function () {
+            gotostudentinfo();
+        })
+
+
+        function gotostudentinfo() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess2';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/StudentInfo'
+                }
+            })
+        }
+
+
+        $("#studentattendance").click(function () {
+            gotostudentattendance();
+        })
+
+
+        function gotostudentattendance() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess2';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/StudentAttendance'
+                }
+            })
+        }
+
+        $("#studentalltermmarks").click(function () {
+            gotostudentalltermmarks();
+        })
+
+
+        function gotostudentalltermmarks() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess2';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/StudentAllTermMarks'
+                }
+            })
+        }
+        $("#studenttotalmarks").click(function () {
+            gotostudenttotalmarks();
+        })
+
+
+        function gotostudenttotalmarks() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess2';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/StudentTotalMarks'
+                }
+            })
+        }
+        $("#studenttermwisemarks").click(function () {
+            gotostudenttermwisemarks();
+        })
+
+
+        function gotostudenttermwisemarks() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess3';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    studentname: $("#studentList").find(":selected").text(),
+                    termname: $("#Termlist1").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/StudentTermWiseMarks'
+                }
+            })
+        }
+        $("#termwisemarksofeachclass").click(function () {
+            gototermwisemarksofeachclass();
+        })
+
+
+        function gototermwisemarksofeachclass() {
+            debugger;
+            event.preventDefault();
+            var $url = '/Reports/JsonSuccess4';
+            $.ajax({
+                url: $url,
+                type: 'POST',
+                datatype: 'json',
+                data: jQuery.param({
+                    classname: $("#Classlist").find(":selected").text(),
+                    termname: $("#Termlist1").find(":selected").text()
+                }),
+                success: function (r) {
+                    window.location.href = '/Reports/ClassTermWiseMarks'
+                }
+            })
+        }
+    </script>

@@ -1,0 +1,136 @@
+﻿@model SmartSchoolSystem.Models.LogInViewModels
+
+@{
+    ViewBag.Title = "LogIn";
+}
+
+
+
+
+<head>
+
+    
+
+
+</head>
+<div style="padding-top:40px;">
+    <div style="position:relative; width: 40%; height: 400px; border: 1px solid; margin: auto;padding-top:20px; padding-left: 00px; border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+
+        <h4 style="position: relative; left: 38%;">LogIn Page</h4>
+
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div style="width: 150%;">
+                <div class="form-horizontal ">
+
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.accountname, new { htmlAttributes = new { @class = "form-control" } })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Account" class="control-label col-md-2">Account</label>
+                        <div class="col-md-10">
+                            <select id="Account" name="Account" class="form-control">
+                                <option value="Admin">Admin</option>
+                                <option value="Student">Student</option>
+                                <option value="Parent">Parent</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="text-danger" style="padding-left:40px">
+                        @ViewBag.warn
+                    </div>
+                    <div class="form-group">
+                        <div style="position: relative; left: 48%;">
+                            <button  type="submit" id="LogIn" class="btn btn-default" style="background-color:black; border-color:black; color:white;">LogIn</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+  @section Scripts {
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+<script type ="text/javascript">
+    $("#LogIn").click(function () {
+        loginrequest();
+    });
+    
+    function SetAdmin() {
+        $.ajax({
+            type: "POST",
+            url: 'http://localhost:50566/LogIn/SetAdmin',
+            data: "",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+        });
+    }
+    function SetParent() {
+        $.ajax({
+            type: "POST",
+            url: 'http://localhost:50566/LogIn/SetParent',
+            data: "",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+        });
+    }
+    function SetStudent() {
+        $.ajax({
+            type: "POST",
+            url: 'http://localhost:50566/LogIn/SetStudent',
+            data: "",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+        });
+    }
+    function SetEmpty() {
+        $.ajax({
+            type: "POST",
+            url: 'http://localhost:50566/LogIn/SetEmpty',
+            data: "",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+        });
+    }
+        function loginrequest() {
+            var account2 = document.getElementById("Account");
+            var account1 = account2.options[account2.selectedIndex].text;
+
+            if (account1 == "Admin") {
+                SetAdmin();
+            }
+            else if (account1 == "Parent") {
+                SetParent();
+            }
+            else if (account1 == "Student") {
+                SetStudent();
+            }
+           
+
+        }
+    
+</script>
+}

@@ -1,0 +1,125 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.EventViewModel>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<section id="banner">
+
+    <!-- Slider -->
+    <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="~/img/slides/1.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>Smart School System</h3>
+                    <p>We Teach Students for Sucessful Future</p>
+
+                </div>
+            </li>
+            <li>
+                <img src="~/img/slides/2.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>Learn to be Sucessful</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- end slider -->
+
+</section>
+<section id="call-to-action-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-9">
+                <h3>Welcom to Smart School System</h3>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="content">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <br />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="skill-home">
+                <div class="skill-home-solid clearfix">
+                    
+                    @{
+                        if (Model != null)
+                        {
+                            var list = Model.ToList();
+                            for (int i = 0; i < 4; i++)
+                            {
+                                <div class="col-md-3 text-center">
+                                    <span class="icons c3"><i class="fa fa-trophy"></i></span> <div class="box-area">
+                                        <h3>@list[i].name</h3>
+                                        <p>@list[i].description</p>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                    <div class="aligncenter">
+                        <br />
+                        <br />
+                        <div style="padding-top:200px;">
+                            <input type="button" value="See All" onclick="location.href='@Url.Action("Index", "Events")'" style="background-color:black;border-color:black;color:white;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="section-padding gray-bg" style="background-color:black;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2>Our Institute</h2>
+                    <p>We try to teach the best.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="about-text">
+                    
+
+                    <ul class="withArrow">
+                        <li><span class="fa fa-angle-right"></span> Best teachers for every subject</li>
+                        <li><span class="fa fa-angle-right"></span> Proper management</li>
+                        <li><span class="fa fa-angle-right"></span> Keep parents updates with details</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="about-image">
+                    <img src="~/img/about.jpg" alt="About Images">
+                </div>
+            </div>
+            <h3><span class="fa fa-clock-o"></span> Time Table</h3>
+            <hr>
+            <dl>
+                <dt>Monday - Friday:</dt>
+                <dd>8am-1pm</dd>
+            </dl>
+        </div>
+    </div>
+</section>
+
+

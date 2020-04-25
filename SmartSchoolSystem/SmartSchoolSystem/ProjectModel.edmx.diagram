@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="85ec6c1709a1470dbd562c73aee48843" Name="Diagram1">
+        <EntityTypeShape EntityType="DB37Model.ActiveStatustbl" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Adminstratortbl" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.ApprovalStatustbl" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.AttendanceMarkingtbl" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.AttendanceStatustbl" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.ClassSubjecttbl" Width="1.5" PointX="11.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Classtbl" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Leavestbl" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Markingstbl" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Parentstbl" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.ParentStudenttbl" Width="1.5" PointX="8.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.SchoolEventstbl" Width="1.5" PointX="10.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.StudentClasstbl" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.StudentLefttbl" Width="1.5" PointX="5.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Studentstbl" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Subjectstbl" Width="1.5" PointX="6" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Termstbl" Width="1.5" PointX="6" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.TimeTabletbl" Width="1.5" PointX="11.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.School_Students" Width="1.5" PointX="10.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.Show_Events" Width="1.5" PointX="12.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.ShowAllActiveStudent" Width="1.5" PointX="12.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB37Model.ShowAllInActiveStudent" Width="1.5" PointX="7.75" PointY="13.375" IsExpanded="true" />
+        <AssociationConnector Association="DB37Model.FK__Studentst__Activ__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Parentstb__Appro__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Studentst__Appro__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Attendanc__Atten__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Attendanc__Stude__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__ClassSubj__Class__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__ClassSubj__Subje__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Markingst__Class__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__StudentCl__Class__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__TimeTable__Class__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Leavestbl__Paren__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Leavestbl__Stude__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Markingst__Stude__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Markingst__Subje__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__Markingst__TermI__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__ParentStu__Paren__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__ParentStu__Stude__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__StudentCl__Stude__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__StudentLe__Stude__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DB37Model.FK__TimeTable__Subje__46E78A0C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

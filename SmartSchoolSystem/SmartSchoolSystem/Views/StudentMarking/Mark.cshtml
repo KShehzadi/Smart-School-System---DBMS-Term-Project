@@ -1,0 +1,85 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.StudentMarkingViewModel>
+
+@{
+    ViewBag.Title = "Mark";
+}
+
+<h2 style="padding-bottom:30px; text-align:center">Student Marking Page</h2>
+<div style="padding:10px;padding-left:400px;">
+<div>
+    <label>Class: </label> &nbsp;
+    <select>
+        <option>1A</option>
+        <option>1B</option>
+        <option>2A</option>
+        <option>2A</option>
+    </select>
+
+    &nbsp; &nbsp;
+
+    <label>Subject: </label> &nbsp;
+    <select>
+        <option>English</option>
+        <option>Math</option>
+        <option>Physics</option>
+    </select>
+    
+    &nbsp; &nbsp;
+
+    <label>Total Marks: </label> &nbsp;
+    <input type="text" placeholder="Total Marks"/>
+    
+
+</div>
+</div>
+<br />
+
+<div class="text-center" style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+
+    <table class="table">
+        <tr>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.studentId)
+                </th>*@
+            <th>
+                @*@Html.DisplayNameFor(model => model.studentName)*@
+                Name
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.studentRegNo)*@
+                Registration Number
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.obtainedMarks)*@
+                Obtained Marks
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.studentId)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.studentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.studentRegNo)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.obtainedMarks)*@
+                    <input type="text" placeholder="Obtained Marks" class="form-control" />
+                </td>
+                @*<td>
+                        @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                        @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.id })
+                    </td>*@
+            </tr>
+        }
+    </table>
+</div>
+    <div style="text-align-last:center;padding-top:20px;">
+        <button type="submit" style="background-color:black; border-color:black; align-self:center; color:white;">Mark</button>
+    </div>
+    

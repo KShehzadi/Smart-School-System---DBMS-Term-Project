@@ -1,0 +1,134 @@
+﻿@model SmartSchoolSystem.Models.ApplyForLeaveViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+
+<div style="padding-top:40px;">
+    <div style="position:relative; width: 60%; height: 600px; border: 1px solid; margin: auto;padding-top:20px; padding-left: 00px; border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+
+        <div style="padding-left:60px;">
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h4 style="padding-left:200px;">Apply For Leave</h4>
+                    <div style="padding-left:40px;">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.HiddenFor(model => model.parentId, new { htmlAttributes = new { @class = "form-control" } })
+                               <!-- @Html.ValidationMessageFor(model => model.parentId, "", new { @class = "text-danger" })-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.parentEmail, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.parentEmail, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.parentEmail, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.HiddenFor(model => model.studentId, new { htmlAttributes = new { @class = "form-control" } })
+                                <!--@Html.ValidationMessageFor(model => model.studentId, "", new { @class = "text-danger" })-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.studentName, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.studentName, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.studentName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.regNo, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.regNo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.regNo, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="text-danger" style="padding-left:40px">
+                                @ViewBag.warn
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.description, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.from, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.from, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.from, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.to, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.to, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.to, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="text-danger" style="padding-left:40px">
+                            @ViewBag.warn
+                        </div>
+                        <div class="form-group">
+                            <div style="position: relative; left: 48%;">
+                                <button id="submit" onclick="return confirm('You will Recieve a Confirmation Email Shortly. Click OK to Proceed.')" class="btn btn-primary" style="background-color:black; border-color:black;">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            </div>
+        </div>
+    </div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+    $(document).ready(function () {
+    // instantiate the dialog on document ready
+        $("#dialog-confirm").dialog({
+            autoOpen: false,
+            resizable: false,
+            height: 170,
+            width: 350,
+            show: {
+                effect: 'drop',
+                direction: 'up'
+           },
+           modal: true,
+           draggable: true,
+           open: function (event, ui) {
+               $(".ui-dialog-titlebar-close").hide();
+          },
+           buttons: {
+               "OK": function () {
+                   $(this).dialog("close");
+
+                   window.location.href = @Url.Action("Index", "Home");
+                   },
+               "Cancel": function () {
+                   $(this).dialog("close");
+                   window.location.href = @Url.Action("Index", "Home");
+                   }
+           }
+        });
+
+        $("#submit").click(function () {
+            // open the dialog on the submit button click
+            $('#dialog-confirm').dialog('open');
+        });
+    });
+</script>

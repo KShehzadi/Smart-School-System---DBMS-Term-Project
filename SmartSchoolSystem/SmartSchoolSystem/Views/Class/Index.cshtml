@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.ClassesViewModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align:center;">School Classes Page</h2>
+
+<br />
+@if (HelperClass.account == "Admin")
+{
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Create", "Class")>Create New Class</a>
+    </div>
+}
+
+
+@foreach (var item in Model)
+{
+    <div class="text-center" style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+        <span class="icons c3"><i class="fa fa-trophy"></i></span>
+        <div class="box-area">
+            <h4>Class Name</h4>
+            <p>@item.Name</p>
+            @*<p> @item.Id</p>*@
+            <br />
+            @if (HelperClass.account == "Admin")
+                {
+                <div>
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Edit", "Class", new { id = item.Id })>Update</a>
+
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Delete", "Class", new { id = item.Id })>Delete</a>
+                </div>
+            }
+        </div>
+    </div>
+        <br />
+}
+
+

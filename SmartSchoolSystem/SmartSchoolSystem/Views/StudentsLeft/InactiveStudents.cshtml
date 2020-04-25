@@ -1,0 +1,77 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.StudentsLeftViewModel>
+
+@{
+    ViewBag.Title = "InactiveStudents";
+}
+
+<h2 style="text-align:center;">Inactive Students</h2>
+
+
+<div style="padding-left:300px;">
+    <label>Class: </label> &nbsp;
+    <select>
+        <option>1A</option>
+        <option>1B</option>
+        <option>2A</option>
+        <option>2A</option>
+    </select>
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.studentId)
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.studentName)*@
+            Name
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.studentRegNo)*@
+            Registration Number
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.classId)
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.className)*@
+            Class
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.status)*@
+            Status
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.studentId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.studentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.studentRegNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.classId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.className)
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.status)*@
+            <button type="submit">@Html.ActionLink("Inactive", "InactiveStudents", new { id = item.id })</button>
+        </td>
+        @*<td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            </td>*@
+    </tr>
+}
+
+</table>

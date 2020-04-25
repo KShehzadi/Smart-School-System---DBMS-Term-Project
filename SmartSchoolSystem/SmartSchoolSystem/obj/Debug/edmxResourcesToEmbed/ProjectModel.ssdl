@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB37Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ActiveStatustbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Adminstratortbl">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdminPassword" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="CNIC" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ApprovalStatustbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AttendanceMarkingtbl">
+    <Key>
+      <PropertyRef Name="StudentId" />
+      <PropertyRef Name="AttendanceDate" />
+    </Key>
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="AttendanceDate" Type="datetime" Nullable="false" />
+    <Property Name="AttendanceStatusId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AttendanceStatustbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassSubjecttbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Classtbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Section" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Leavestbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentId" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="LeaveDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DateFrom" Type="datetime" Nullable="false" />
+    <Property Name="DateEnd" Type="datetime" Nullable="false" />
+    <Property Name="ApprovalStatusId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Markingstbl">
+    <Key>
+      <PropertyRef Name="ClassId" />
+      <PropertyRef Name="SubjectId" />
+      <PropertyRef Name="StudentId" />
+      <PropertyRef Name="TermId" />
+    </Key>
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="TotalMarks" Type="float" Nullable="false" />
+    <Property Name="ObtainedMarks" Type="float" Nullable="false" />
+    <Property Name="TermId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Parentstbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PrntPassword" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="CNIC" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="ApprovalStatusId" Type="int" Nullable="false" />
+    <Property Name="MailAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ParentStudenttbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentId" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SchoolEventstbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EventDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EventDate" Type="datetime" Nullable="false" />
+    <Property Name="StartTime" Type="datetime" Nullable="false" />
+    <Property Name="EndTime" Type="datetime" Nullable="false" />
+    <Property Name="Contact" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Charges" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentClasstbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentLefttbl">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="DateLeft" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Studentstbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StdPassword" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="CNIC" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="ApprovalStatusId" Type="int" Nullable="false" />
+    <Property Name="ActiveStatusId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subjectstbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Termstbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TimeTabletbl">
+    <Key>
+      <PropertyRef Name="WeeksDay" />
+      <PropertyRef Name="ClassId" />
+      <PropertyRef Name="SubjectId" />
+    </Key>
+    <Property Name="WeeksDay" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+    <Property Name="LectureTime" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DB37.dbo.School_Students' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="School_Students">
+    <Key>
+      <PropertyRef Name="ClassName" />
+      <PropertyRef Name="RegistrationNumber" />
+      <PropertyRef Name="StudentName" />
+    </Key>
+    <Property Name="ClassName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentName" Type="nvarchar" MaxLength="101" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DB37.dbo.Show_Events' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Show_Events">
+    <Key>
+      <PropertyRef Name="Title" />
+      <PropertyRef Name="EventDescription" />
+      <PropertyRef Name="StartTime" />
+      <PropertyRef Name="EndTime" />
+      <PropertyRef Name="Charges" />
+    </Key>
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EventDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StartTime" Type="datetime" Nullable="false" />
+    <Property Name="EndTime" Type="datetime" Nullable="false" />
+    <Property Name="Charges" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DB37.dbo.ShowAllActiveStudents' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ShowAllActiveStudents">
+    <Key>
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Class" />
+      <PropertyRef Name="RegistrationNumber" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="101" Nullable="false" />
+    <Property Name="Class" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DB37.dbo.ShowAllInActiveStudents' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ShowAllInActiveStudents">
+    <Key>
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Class" />
+      <PropertyRef Name="RegistrationNumber" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="101" Nullable="false" />
+    <Property Name="Class" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Attendanc__Atten__34C8D9D1">
+    <End Role="AttendanceStatustbl" Type="Self.AttendanceStatustbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AttendanceMarkingtbl" Type="Self.AttendanceMarkingtbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AttendanceStatustbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AttendanceMarkingtbl">
+        <PropertyRef Name="AttendanceStatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__Stude__35BCFE0A">
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AttendanceMarkingtbl" Type="Self.AttendanceMarkingtbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AttendanceMarkingtbl">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassSubj__Class__36B12243">
+    <End Role="Classtbl" Type="Self.Classtbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ClassSubjecttbl" Type="Self.ClassSubjecttbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classtbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClassSubjecttbl">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassSubj__Subje__37A5467C">
+    <End Role="Subjectstbl" Type="Self.Subjectstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ClassSubjecttbl" Type="Self.ClassSubjecttbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjectstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClassSubjecttbl">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Leavestbl__Paren__38996AB5">
+    <End Role="Parentstbl" Type="Self.Parentstbl" Multiplicity="1" />
+    <End Role="Leavestbl" Type="Self.Leavestbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Leavestbl">
+        <PropertyRef Name="ParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Leavestbl__Stude__398D8EEE">
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Leavestbl" Type="Self.Leavestbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Leavestbl">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Markingst__Class__3A81B327">
+    <End Role="Classtbl" Type="Self.Classtbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Markingstbl" Type="Self.Markingstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classtbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Markingstbl">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Markingst__Stude__3B75D760">
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Markingstbl" Type="Self.Markingstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Markingstbl">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Markingst__Subje__3C69FB99">
+    <End Role="Subjectstbl" Type="Self.Subjectstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Markingstbl" Type="Self.Markingstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjectstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Markingstbl">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Markingst__TermI__3D5E1FD2">
+    <End Role="Termstbl" Type="Self.Termstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Markingstbl" Type="Self.Markingstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Termstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Markingstbl">
+        <PropertyRef Name="TermId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Parentstb__Appro__3E52440B">
+    <End Role="ApprovalStatustbl" Type="Self.ApprovalStatustbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Parentstbl" Type="Self.Parentstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ApprovalStatustbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Parentstbl">
+        <PropertyRef Name="ApprovalStatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ParentStu__Paren__3F466844">
+    <End Role="Parentstbl" Type="Self.Parentstbl" Multiplicity="1" />
+    <End Role="ParentStudenttbl" Type="Self.ParentStudenttbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ParentStudenttbl">
+        <PropertyRef Name="ParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ParentStu__Stude__403A8C7D">
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ParentStudenttbl" Type="Self.ParentStudenttbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ParentStudenttbl">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudentCl__Class__412EB0B6">
+    <End Role="Classtbl" Type="Self.Classtbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StudentClasstbl" Type="Self.StudentClasstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classtbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClasstbl">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudentCl__Stude__4222D4EF">
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StudentClasstbl" Type="Self.StudentClasstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClasstbl">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudentLe__Stude__4316F928">
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StudentLefttbl" Type="Self.StudentLefttbl" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Studentstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentLefttbl">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Studentst__Activ__440B1D61">
+    <End Role="ActiveStatustbl" Type="Self.ActiveStatustbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ActiveStatustbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Studentstbl">
+        <PropertyRef Name="ActiveStatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Studentst__Appro__44FF419A">
+    <End Role="ApprovalStatustbl" Type="Self.ApprovalStatustbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Studentstbl" Type="Self.Studentstbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ApprovalStatustbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Studentstbl">
+        <PropertyRef Name="ApprovalStatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TimeTable__Class__45F365D3">
+    <End Role="Classtbl" Type="Self.Classtbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TimeTabletbl" Type="Self.TimeTabletbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classtbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TimeTabletbl">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TimeTable__Subje__46E78A0C">
+    <End Role="Subjectstbl" Type="Self.Subjectstbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TimeTabletbl" Type="Self.TimeTabletbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjectstbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TimeTabletbl">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AllTermMarksOfAClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="classid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AllTermMarksOfEachStudent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AttendanceofEachStudent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="studentid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AttendanceofWholeClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Classid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AverageOfSchool" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ShowClassWiseActiveStudents" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="classid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ShowClassWiseInActiveStudents" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="class" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ShowStudentInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="studentid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="StudentsOfClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Class" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SubjectsOfStudent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SubjectWiseMarkingForEachStudent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="studentId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SubjectWiseMarksForClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClassId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TermWiseMarksOfAClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="classid" Type="int" Mode="In" />
+    <Parameter Name="termid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TermWiseMarksOfEachStudent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="termid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TimeTableForEachClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="classid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TotalMarksOfAllClasses" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="TotalMarksOfEachClass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="classid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TotalMarksOfEachStudent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="DB37ModelStoreContainer">
+    <EntitySet Name="ActiveStatustbl" EntityType="Self.ActiveStatustbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Adminstratortbl" EntityType="Self.Adminstratortbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ApprovalStatustbl" EntityType="Self.ApprovalStatustbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AttendanceMarkingtbl" EntityType="Self.AttendanceMarkingtbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AttendanceStatustbl" EntityType="Self.AttendanceStatustbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassSubjecttbl" EntityType="Self.ClassSubjecttbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Classtbl" EntityType="Self.Classtbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Leavestbl" EntityType="Self.Leavestbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Markingstbl" EntityType="Self.Markingstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parentstbl" EntityType="Self.Parentstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ParentStudenttbl" EntityType="Self.ParentStudenttbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SchoolEventstbl" EntityType="Self.SchoolEventstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentClasstbl" EntityType="Self.StudentClasstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentLefttbl" EntityType="Self.StudentLefttbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Studentstbl" EntityType="Self.Studentstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subjectstbl" EntityType="Self.Subjectstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Termstbl" EntityType="Self.Termstbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeTabletbl" EntityType="Self.TimeTabletbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="School_Students" EntityType="Self.School_Students" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [School_Students].[ClassName] AS [ClassName], 
+    [School_Students].[RegistrationNumber] AS [RegistrationNumber], 
+    [School_Students].[StudentName] AS [StudentName]
+    FROM [dbo].[School_Students] AS [School_Students]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Show_Events" EntityType="Self.Show_Events" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Show_Events].[Title] AS [Title], 
+    [Show_Events].[EventDescription] AS [EventDescription], 
+    [Show_Events].[StartTime] AS [StartTime], 
+    [Show_Events].[EndTime] AS [EndTime], 
+    [Show_Events].[Charges] AS [Charges]
+    FROM [dbo].[Show_Events] AS [Show_Events]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ShowAllActiveStudents" EntityType="Self.ShowAllActiveStudents" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ShowAllActiveStudents].[Name] AS [Name], 
+    [ShowAllActiveStudents].[Class] AS [Class], 
+    [ShowAllActiveStudents].[RegistrationNumber] AS [RegistrationNumber]
+    FROM [dbo].[ShowAllActiveStudents] AS [ShowAllActiveStudents]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ShowAllInActiveStudents" EntityType="Self.ShowAllInActiveStudents" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ShowAllInActiveStudents].[Name] AS [Name], 
+    [ShowAllInActiveStudents].[Class] AS [Class], 
+    [ShowAllInActiveStudents].[RegistrationNumber] AS [RegistrationNumber]
+    FROM [dbo].[ShowAllInActiveStudents] AS [ShowAllInActiveStudents]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Attendanc__Atten__34C8D9D1" Association="Self.FK__Attendanc__Atten__34C8D9D1">
+      <End Role="AttendanceStatustbl" EntitySet="AttendanceStatustbl" />
+      <End Role="AttendanceMarkingtbl" EntitySet="AttendanceMarkingtbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__Stude__35BCFE0A" Association="Self.FK__Attendanc__Stude__35BCFE0A">
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+      <End Role="AttendanceMarkingtbl" EntitySet="AttendanceMarkingtbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassSubj__Class__36B12243" Association="Self.FK__ClassSubj__Class__36B12243">
+      <End Role="Classtbl" EntitySet="Classtbl" />
+      <End Role="ClassSubjecttbl" EntitySet="ClassSubjecttbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassSubj__Subje__37A5467C" Association="Self.FK__ClassSubj__Subje__37A5467C">
+      <End Role="Subjectstbl" EntitySet="Subjectstbl" />
+      <End Role="ClassSubjecttbl" EntitySet="ClassSubjecttbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Leavestbl__Paren__38996AB5" Association="Self.FK__Leavestbl__Paren__38996AB5">
+      <End Role="Parentstbl" EntitySet="Parentstbl" />
+      <End Role="Leavestbl" EntitySet="Leavestbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Leavestbl__Stude__398D8EEE" Association="Self.FK__Leavestbl__Stude__398D8EEE">
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+      <End Role="Leavestbl" EntitySet="Leavestbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Markingst__Class__3A81B327" Association="Self.FK__Markingst__Class__3A81B327">
+      <End Role="Classtbl" EntitySet="Classtbl" />
+      <End Role="Markingstbl" EntitySet="Markingstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Markingst__Stude__3B75D760" Association="Self.FK__Markingst__Stude__3B75D760">
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+      <End Role="Markingstbl" EntitySet="Markingstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Markingst__Subje__3C69FB99" Association="Self.FK__Markingst__Subje__3C69FB99">
+      <End Role="Subjectstbl" EntitySet="Subjectstbl" />
+      <End Role="Markingstbl" EntitySet="Markingstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Markingst__TermI__3D5E1FD2" Association="Self.FK__Markingst__TermI__3D5E1FD2">
+      <End Role="Termstbl" EntitySet="Termstbl" />
+      <End Role="Markingstbl" EntitySet="Markingstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Parentstb__Appro__3E52440B" Association="Self.FK__Parentstb__Appro__3E52440B">
+      <End Role="ApprovalStatustbl" EntitySet="ApprovalStatustbl" />
+      <End Role="Parentstbl" EntitySet="Parentstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ParentStu__Paren__3F466844" Association="Self.FK__ParentStu__Paren__3F466844">
+      <End Role="Parentstbl" EntitySet="Parentstbl" />
+      <End Role="ParentStudenttbl" EntitySet="ParentStudenttbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ParentStu__Stude__403A8C7D" Association="Self.FK__ParentStu__Stude__403A8C7D">
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+      <End Role="ParentStudenttbl" EntitySet="ParentStudenttbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudentCl__Class__412EB0B6" Association="Self.FK__StudentCl__Class__412EB0B6">
+      <End Role="Classtbl" EntitySet="Classtbl" />
+      <End Role="StudentClasstbl" EntitySet="StudentClasstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudentCl__Stude__4222D4EF" Association="Self.FK__StudentCl__Stude__4222D4EF">
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+      <End Role="StudentClasstbl" EntitySet="StudentClasstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudentLe__Stude__4316F928" Association="Self.FK__StudentLe__Stude__4316F928">
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+      <End Role="StudentLefttbl" EntitySet="StudentLefttbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Studentst__Activ__440B1D61" Association="Self.FK__Studentst__Activ__440B1D61">
+      <End Role="ActiveStatustbl" EntitySet="ActiveStatustbl" />
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Studentst__Appro__44FF419A" Association="Self.FK__Studentst__Appro__44FF419A">
+      <End Role="ApprovalStatustbl" EntitySet="ApprovalStatustbl" />
+      <End Role="Studentstbl" EntitySet="Studentstbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TimeTable__Class__45F365D3" Association="Self.FK__TimeTable__Class__45F365D3">
+      <End Role="Classtbl" EntitySet="Classtbl" />
+      <End Role="TimeTabletbl" EntitySet="TimeTabletbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TimeTable__Subje__46E78A0C" Association="Self.FK__TimeTable__Subje__46E78A0C">
+      <End Role="Subjectstbl" EntitySet="Subjectstbl" />
+      <End Role="TimeTabletbl" EntitySet="TimeTabletbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

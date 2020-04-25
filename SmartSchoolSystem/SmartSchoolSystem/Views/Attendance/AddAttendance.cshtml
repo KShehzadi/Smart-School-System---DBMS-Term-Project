@@ -1,0 +1,142 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.Attendance>
+
+@{
+    ViewBag.Title = "AddAttendance";
+}
+
+
+<h2 style="text-align:center;">Attendance Marking Page</h2>
+<br />
+
+
+
+@using (Html.BeginForm())
+{
+
+
+    @Html.AntiForgeryToken()
+
+    <div style="padding-left:480px;">
+        <label>Class:     </label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+        
+        <select id="Classlist" name="Classlist" style="width:220px;">
+            @foreach (var o in ViewBag.Options)
+            {
+                <option value="@o.ToString()">@o.ToString()</option>
+            }
+        </select>
+            
+    </div>
+    <div style="padding-left:480px;">
+        <label>Select Date: </label> &nbsp;
+        <input ... type="datetime-local" value="2012-03-30T10:00:00" id="date" name="date" />
+    </div>
+    <br />
+    
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <input id="submit0" name="submit0" type="submit" style="background-color:black; border-color:black; align-self:center; color:white;" value="Fetch Students of Selected Class" class="btn btn-default" />
+    </div>
+
+
+    <h3 style="padding-left:580px;">@ViewBag.Classname</h3>
+    <div class="text-danger" style="padding-left:200px">
+        @ViewBag.warn
+    </div>
+    <div style="padding-left:200px;">
+        <table class="table" style="border: 5px solid #000000; border-radius: 5px;align-self:center; width: 90%; height: auto;">
+            <tr>
+                <th>
+                    Registration Number
+                    <!--@Html.DisplayNameFor(model => model.regNo)-->
+                </th>
+                <th style="padding-left:300px;"> Attendance Status</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.regNo
+
+                    </td>
+
+                    <td>
+
+                        <p>
+                            <div style="padding-left:300px;">
+
+                                <!--@item.status-->
+                                @Html.DropDownList("statuslist", item.statuslist, new { id = item.id })
+
+                            </div>
+
+                        </p>
+
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <input id="submit1" name="submit1" type="submit" style="background-color:black; border-color:black; align-self:center; color:white;" value="Mark Attendance" class="btn btn-default" />
+    </div>
+}
+
+
+@section Scripts {
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+    <script type="text/javascript">
+    $("#submit0").click(function () {
+        fetchrequest();
+    });
+    $("#submit1").click(function () {
+        submitrequest();
+    });
+
+    function SetFetch() {
+        $.ajax({
+            type: "POST",
+            url: 'http://localhost:50566/Attendance/SetFetch',
+            data: "",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+        });
+    }
+    function SetSubmit() {
+        $.ajax({
+            type: "POST",
+            url: 'http://localhost:50566/Attendance/SetSubmit',
+            data: "",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+        });
+    }
+
+
+        function fetchrequest() {
+
+                SetFetch();
+        }
+        function submitrequest() {
+
+            SetSubmit();
+        }
+
+    </script>
+    <script type="text/javascript">
+    $(function(){
+        $("#statuslist").on("change", function(){
+            $("#status").val($(this).text());
+            
+        });
+});
+    </script>
+}
+
+
+}
+
+

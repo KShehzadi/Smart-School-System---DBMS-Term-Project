@@ -1,0 +1,64 @@
+﻿@model SmartSchoolSystem.Models.SubjectViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<div style="padding-top:40px;">
+    <div style="position:relative; width: 40%; height: 300px; border: 1px solid; margin: auto;padding-top:20px; padding-left: 00px; border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4 style="position: relative; left: 38%;">Create Subject</h4>
+                <br />
+
+                <div style="padding-left:20px;">
+                    <div style="padding-left:150px;">
+                        <label>Class: </label> &nbsp;
+                        <select id="Classlist" name="Classlist">
+                            
+                            @foreach (var o in ViewBag.Options)
+                            {
+                                <option value="@o.ToString()">@o.ToString()</option>
+                            }
+                        </select>
+                    </div>
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="text-danger" style="padding-left:40px">
+                        @ViewBag.warn
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input onclick="setclass" type="submit" id="Create" value="Create" class="btn btn-default" style="background-color:black; border-color:black; color:white;" />
+                        </div>
+                    </div>
+                </div>
+                </div>
+        }
+        </div>
+    </div>
+        
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+<script type="text/javascript">
+    //$("#Create").click(function () {
+    //    setClass();
+    //});
+
+    
+        
+
+</script>
+        }

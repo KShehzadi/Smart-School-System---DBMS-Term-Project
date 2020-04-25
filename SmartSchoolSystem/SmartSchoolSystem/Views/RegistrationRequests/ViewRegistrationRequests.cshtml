@@ -1,0 +1,31 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.RegistrationRequestsViewModel>
+
+@{
+    ViewBag.Title = "ViewRegistrationRequests";
+}
+
+<h2 class="text-center">Registration Requests</h2>
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <div class="text-center" style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+            <span class="icons c3"><i class="fa fa-trophy"></i></span>
+            <div class="box-area">
+                <h3>Parent Name: @item.parentName</h3>
+                <!--<p>Parent Id: @item.parentId</p>
+                <p>Student Id: @item.studentId</p>-->
+                <p>Student Name: @item.studentName</p>
+                <br />
+                <div>
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("ApproveRegistrationRequests", "RegistrationRequests", new { id = item.parentId, sid = item.studentId })>Approve</a>
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("DisapproveApproveRegistrationRequests", "RegistrationRequests", new { id = item.parentId, sid = item.studentId })>Disapprove</a>
+                </div>
+            </div>
+        </div>
+        <br />
+    }
+}
+
+

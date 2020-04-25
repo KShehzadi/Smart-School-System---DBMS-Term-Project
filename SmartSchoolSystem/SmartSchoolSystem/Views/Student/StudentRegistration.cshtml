@@ -1,0 +1,131 @@
+﻿@model SmartSchoolSystem.Models.StudentRegistrationViewModels
+
+@{
+    ViewBag.Title = "StudentRegistration";
+}
+
+
+<div style="padding-top:40px;">
+    <div style="position:relative; width: 55%; height: 600px; border: 1px solid; margin: auto;padding-top:20px; padding-left: 00px; border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+
+        <div style="padding-left:60px;">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h4 style="position: relative; left: 28%;">Student Registration</h4>
+                    <br />
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.StdPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.StdPassword, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.StdPassword, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CNIC, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.CNIC, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.CNIC, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Classlist" class="control-label col-md-2">Class </label>
+                        <div class="col-md-10">
+                            <select id="Classlist" name="Classlist" class="form-control">
+                                @foreach (var o in ViewBag.Options)
+                                {
+                                    <option value="@o.ToString()">@o.ToString()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                   
+
+                    @*<div class="form-group">
+        <div style="position: relative; left: 45%;">
+            <input type="submit" value="Register" class="btn btn-default" />
+        </div>
+    </div>*@
+                    <div class="form-group">
+                        <div style="position: relative; left: 48%;">
+                            <button id="register" onclick="return confirm('You will Recieve a Confirmation Email Shortly. Click OK to Proceed.')" class="btn btn-primary" style="background-color:black; border-color:black;">Register</button>
+                        </div>
+                   </div>
+                </div>
+               
+            }
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+<script>
+$(document).ready(function() {
+    // instantiate the dialog on document ready
+    $("#dialog-confirm").dialog({
+        autoOpen: false,
+        resizable: false,
+        height: 170,
+        width: 350,
+        show: {
+            effect: 'drop',
+            direction: 'up'
+        },
+        modal: true,
+        draggable: true,
+        open: function(event, ui) {
+            $(".ui-dialog-titlebar-close").hide();
+        },
+        buttons: {
+            "OK": function() {
+                $(this).dialog("close");
+
+                window.location.href = @Url.Action("Index", "Home");
+             },
+        "Cancel": function() {
+            $(this).dialog("close");
+            window.location.href = @Url.Action("Index", "Home");
+        }
+      }
+    });
+
+    $("#register").click(function() {
+      // open the dialog on the submit button click
+      $('#dialog-confirm').dialog('open');
+    });
+});
+</script>

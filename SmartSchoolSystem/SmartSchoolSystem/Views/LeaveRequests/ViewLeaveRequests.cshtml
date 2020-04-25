@@ -1,0 +1,32 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.LeaveRequestsViewModel>
+
+@{
+    ViewBag.Title = "ViewLeaveRequests";
+}
+
+<h2 class="text-center">Leave Requests</h2>
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <div class="text-center" style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+            <span class="icons c3"><i class="fa fa-trophy"></i></span>
+            <div class="box-area">
+                <h3>Parent Email: @item.parentEmail</h3>
+                <p>Student Name: @item.studentName</p>
+                <p>Student Description: @item.leaveDescription</p>
+                <p>Student Registration Number: @item.regNo</p>
+                <p>From: @item.dateFrom.ToShortDateString()</p>
+                <p>To: @item.dateTo.ToShortDateString()</p>
+                <br />
+                <div>
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("ApproveLeaveRequests", "LeaveRequests", new { id = item.parentId })>Approve</a>
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("DisapproveLeaveRequests", "LeaveRequests", new { id = item.parentId })>Disapprove</a>
+                </div>
+            </div>
+        </div>
+        <br />
+    }
+}
+

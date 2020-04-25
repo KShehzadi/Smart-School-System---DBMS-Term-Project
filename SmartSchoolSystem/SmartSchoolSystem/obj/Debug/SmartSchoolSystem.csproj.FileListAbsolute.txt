@@ -1,0 +1,854 @@
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+c:\users\dc\documents\visual studio 2015\Projects\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+C:\Users\Dc\Desktop\dbms term project\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csproj.CoreCompileInputs.cache
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+F:\semester 6\Database\Project\Smart School System Project\dbpro_105_157_178-master\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+C:\Users\Dc\Desktop\git\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csproj.CoreCompileInputs.cache
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+F:\semester 6\Database\Project\Smart School System Project\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\Integrate2\SmartSchoolSystem\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.Shared.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Dc\Desktop\backup db term project\SmartSchoolSystem\SmartSchoolSystem\bin\stdole.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\ApplicationInsights.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\csc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\vbc.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll.config
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\SmartSchoolSystem.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportSource.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.Shared.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Owin.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\WebGrease.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\stdole.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.Web.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.ApplicationInsights.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Helpers.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Mvc.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Optimization.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Deployment.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\System.Web.WebPages.Razor.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Antlr3.Runtime.pdb
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Newtonsoft.Json.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\EntityFramework.SqlServer.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Core.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Facebook.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Cookies.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.OAuth.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Google.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.Twitter.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.csprojResolveAssemblyReference.cache
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.dll
+F:\UET\Semester 6\Database Management Systems\Lab\Project2\DB37\SmartSchoolSystem\SmartSchoolSystem\obj\Debug\SmartSchoolSystem.pdb

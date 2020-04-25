@@ -1,0 +1,103 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.AssessmentViewModel>
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="danger">@ViewBag.warn</div>
+    <div style="padding-left:150px;">
+
+        <label>Term: </label> &nbsp;
+        <select id="Termlist" name="Termlist">
+            @foreach (var o in ViewBag.Options1)
+            {
+                <option value="@o.ToString()">@o.ToString()</option>
+            }
+        </select>
+        &nbsp; &nbsp; &nbsp;
+
+        <label>Class: </label> &nbsp;
+        <select id="Classlist" name="Classlist">
+            @foreach (var o in ViewBag.Options)
+            {
+                <option value="@o.ToString()">@o.ToString()</option>
+            }
+        </select>
+        &nbsp; &nbsp; &nbsp;
+
+        <label>Subject: </label> &nbsp;
+        <select id="subjectList" name="subjectList">
+            @foreach (var o in new SelectList(""))
+                {
+                <option value="@o.ToString()">@o.ToString()</option>
+            }
+        </select>
+
+        &nbsp; &nbsp; &nbsp;
+        <label>Total Marks: </label>
+        <input type="number" name="total" id="total" required/>
+        
+        
+    </div>
+    <br />
+    
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <input type="submit" style="background-color:black; border-color:black; align-self:center; color:white;" class="btn btn-default" name="sub" value="show" />
+    </div>
+
+    <div style="padding-left : 350px;">
+        <table class="table" style="border: 5px solid #000000; border-radius: 5px;align-self:center; width: 60%; height: auto;">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.regNo)
+                </th>
+                <th>
+                    Obtained Marks
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.regNo
+                    </td>
+                    <td>
+                        @Html.TextBox("obtainedMarks", item.obtainedMarks, new { id = "txt_" + item.id })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+        <div style="align-self:center; text-align:center;padding-bottom:30px;">
+            <input type="submit" style="background-color:black; border-color:black; align-self:center; color:white;" class="btn btn-default" name="sub" value="save" />
+
+        </div>
+    
+
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+            $(document).ready(function () {
+                $("#Classlist").change(function () {
+                    $.get("/Assessment/UpdateSubjects", { classname: $("#Classlist").find(":selected").text() }, function (data) {
+                        $("#subjectList").empty();
+                        $.each(data, function (index, row) {
+                            $("#subjectList").append("<option>" + row + "</option>")
+                        });
+                    });
+                })
+            });
+</script>
+
+<script type="text/javascript">
+    
+
+</script>

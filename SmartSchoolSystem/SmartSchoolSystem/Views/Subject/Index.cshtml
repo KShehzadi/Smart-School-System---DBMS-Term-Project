@@ -1,0 +1,53 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.SubjectViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align:center;">Subjects</h2>
+
+<br />
+@if (HelperClass.account == "Admin")
+{
+    <div style="align-self:center; text-align:center;padding-bottom:30px;">
+        <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Create", "Subject")>Create and Add New Subject</a>
+    </div>
+}
+
+<div style="padding-left:300px;">
+    <label>Class: </label> &nbsp;
+    <select id="Classlist" name="Classlist">
+
+        @foreach (var o in ViewBag.Options)
+        {
+            <option value="@o.ToString()">@o.ToString()</option>
+        }
+    </select>
+
+</div>
+<div style="align-self:center; text-align:center;padding-bottom:30px;">
+    <button type="submit" style="background-color:black; border-color:black; align-self:center; color:white;">Fetch Subjects of Selected Class</button>
+</div>
+
+@foreach (var item in Model)
+{
+    <div class="text-center" style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+        <span class="icons c3"><i class="fa fa-trophy"></i></span>
+        <div class="box-area">
+            <h4>Subject Name</h4>
+            <p>@item.name</p>
+
+            <br />
+            @if (HelperClass.account == "Admin")
+                {
+                <div>
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" href=@Url.Action("Edit", "Subject", new { id = 1 })>Update</a>
+
+                    <a class="btn btn-primary" style="background-color:black; border-color:black; align-self:center" @*href=@Url.Action("Delete", "Subject", new { id = 1 })*@>Delete</a>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+}
+

@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .elements:hover
+        {
+            background: #ffffff;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Smart School System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="http://webthemez.com" />
+    <!-- css -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="~/css/jcarousel.css" rel="stylesheet" />
+    <link href="~/css/flexslider.css" rel="stylesheet" />
+    <link href="~/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div id="wrapper" class="home-page">
+    
+    <!-- start header -->
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top" style="background-color:black">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        
+                    </button>
+                    <a class="navbar-brand" href="Index.html"><img src="~/img/logo.png" alt="logo" />Smart School System</a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="elements">
+                            @Html.ActionLink("Home Page", "Index" ,"Home", null, null)
+                        </li>
+                      
+
+                        <li class="elements">
+                            @Html.ActionLink("Contact Us", "Contact", "Home", new { @class = "elements" }, null)
+                        </li>
+                        <li class="elements">
+                            @Html.ActionLink("About", "About", "Home", new { @class = "elements" },null)
+                        </li>
+                        @if (HelperClass.account == "")
+                        {
+                            <li class="elements">
+                                @Html.ActionLink("SignIn", "LogIn", "LogIn", new { @class = "elements" }, null)
+                            </li>
+                            <li class="elements">
+                                @Html.ActionLink("SignUp", "ParentRegistration", "Parent", new { @class = "elements" }, null)
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="elements">
+                                @Html.ActionLink("LogOut", "LogOut", "LogIn", new { @class = "elements" }, null)
+                            </li>
+                        }
+                            </ul>
+                        <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        
+            <nav style="position:relative; left: 10vw; width: 80%; padding-top: 10px; background-color :black; border-color:black;">
+                <ul class="nav nav-pills">
+@if (HelperClass.account == "Admin")
+{
+                    <li style="color:gray;">@Html.ActionLink("Event Page", "Index", "Events")</li>
+                    <li class="elements">@Html.ActionLink("Attendance", "AddAttendance", "Attendance")</li>
+                    <li class="elements">@Html.ActionLink("Registration Requests", "ViewRegistrationRequests", "RegistrationRequests")</li>
+                    <li class="elements">@Html.ActionLink("Leaves Requests", "ViewLeaveRequests", "LeaveRequests")</li>
+                    <li class="elements">@Html.ActionLink("Class", "Index", "Class")</li>
+                    <li class="elements">@Html.ActionLink("Subject", "Index", "Subject")</li>
+                    <li class="elements">@Html.ActionLink("Students Left", "ViewActiveStudents", "StudentsLeft")</li>
+                    <li class="elements">@Html.ActionLink("Student Marking", "Create", "Assessment")</li>
+                    <li class="elements">@Html.ActionLink("Reports Page", "AdminReportsOnly", "Reports")</li>
+                    <li>@Html.ActionLink("Time Table", "Index", "TimeTable")</li>
+
+}
+@if (HelperClass.account == "Student")
+{
+    <li>@Html.ActionLink("Time Table", "Index", "TimeTable")</li>
+    <li class="elements">@Html.ActionLink("Reports Page", "StudentReports", "Reports")</li>
+}
+                    @if (HelperClass.account == "Parent")
+                    {
+                        <li>@Html.ActionLink("Time Table", "Index", "TimeTable")</li>
+                        <li>@Html.ActionLink("Apply for leave", "Create", "ApplyForLeave")</li>
+                        <li>@Html.ActionLink("Register More Student", "StudentRegistration", "Student")</li>
+                        <li class="elements">@Html.ActionLink("Reports Page", "ParentReports", "Reports")</li>
+                    }
+                  
+                   
+                </ul>
+            </nav>
+        
+    </header>
+        <div>
+            @RenderBody()
+        </div>
+    <hr />
+    <footer style="background-color:black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Our Contact</h5>
+                        <address>
+                            <strong>Smart School System</strong><br>
+                            JC Main Road, Near Silnile tower<br>
+                            Lahore.
+                        </address>
+                        <p>
+                            <i class="icon-phone"></i>+923200498942<br>
+                            <i class="icon-envelope-alt"></i> smartschoolsystem0@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Quick Links</h5>
+                        <ul class="link-list">
+                            <li><a href="#">Latest Events</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Latest posts</h5>
+                        <ul class="link-list">
+                            <li><a href="#">Parent teacher meeting for class play group to 3 on May 2nd, 2019</a></li>
+                            <li><a href="#">Parent teacher meeting for class 6th to 8th on May 3rd, 2019</a></li>
+                            <li><a href="#">Parent teacher meeting for class 9th & 10th on May 4th, 2019</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Recent News</h5>
+                        <ul class="link-list">
+                            <li><a href="#">No Events right now.</a></li>
+                            <li><a href="#">Admission areopen</a></li>
+                            <li><a href="#">Come and apply for admission from 8am to 2pm</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub-footer" style="background-color:black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="copyright">
+                            <p>
+                                <span>&copy; SmartSchoolSystem 2018 All right reserved. <br /></span> This <a href="http://webthemez.com/free-bootstrap-templates" target="_blank">Free Bootstrap Template</a> provided by WebThemez.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="social-network">
+                            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+    <!-- javascript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.fancybox.pack.js"></script>
+    <script src="~/js/jquery.fancybox-media.js"></script>
+    <script src="~/js/jquery.flexslider.js"></script>
+    <script src="~/js/animate.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="~/js/modernizr.custom.js"></script>
+    <script src="~/js/jquery.isotope.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/animate.js"></script>
+    <script src="~/js/custom.js"></script>
+    <script src="~/js/owl-carousel/owl.carousel.js"></script>
+
+</body>
+</html>

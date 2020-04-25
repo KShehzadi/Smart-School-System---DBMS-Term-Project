@@ -1,0 +1,89 @@
+﻿@model IEnumerable<SmartSchoolSystem.Models.StudentsLeftViewModel>
+
+@{
+    ViewBag.Title = "ViewActiveStudents";
+}
+
+<h2 style="text-align:center;padding-bottom:20px;">Active Students Page</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-group" style="padding-left:300px;">
+    <label for="Classlist" class="control-label col-md-2">Class: </label>
+    <div class="col-md-10">
+        <select id="Classlist" name="Classlist" class="form-control">
+            @foreach (var o in ViewBag.Options)
+            {
+                <option value="@o.ToString()">@o.ToString()</option>
+            }
+        </select>
+    </div>
+</div>
+<br />
+    <br />
+    <br />
+    <br />
+    <br />
+<div style="align-self:center; text-align:center;padding-bottom:30px;">
+    <input type="submit" style="background-color:black; border-color:black; align-self:center; color:white;" value="Fetch Students of Selected Class" class="btn btn-default" />
+</div>
+<h3 style="text-align:center; text-decoration:underline; font-family:'Times New Roman';">@ViewBag.Classname</h3>
+
+<div class="text-center" style="padding-left:200px;">
+
+    <table class="table"  style="border: 5px solid #000000; border-radius: 5px; padding: 10px; width: 80%; height: auto;">
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.studentId)*@
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.studentName)*@
+                Name
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.studentRegNo)*@
+                Registration Number
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.classId)*@
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.className)*@
+                Class
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.status)*@
+                Status
+            </th>
+           
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.studentId)*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.studentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.studentRegNo)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.classId)*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.className)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.status)*@
+                    <button style="background-color:black; border-color:black; align-self:center; color:white;">@Html.ActionLink("Deactivate Status","InactiveStudents","StudentsLeft", new { id = item.studentId },new { @class = "button" })</button>
+                </td>
+               
+            </tr>
+        }
+    </table>
+    </div>
+}

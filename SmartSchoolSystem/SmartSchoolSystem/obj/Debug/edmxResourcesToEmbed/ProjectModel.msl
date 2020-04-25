@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB37ModelStoreContainer" CdmEntityContainer="DB37Entities">
+    <EntitySetMapping Name="ActiveStatustbls">
+      <EntityTypeMapping TypeName="DB37Model.ActiveStatustbl">
+        <MappingFragment StoreEntitySet="ActiveStatustbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Adminstratortbls">
+      <EntityTypeMapping TypeName="DB37Model.Adminstratortbl">
+        <MappingFragment StoreEntitySet="Adminstratortbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="AdminPassword" ColumnName="AdminPassword" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ApprovalStatustbls">
+      <EntityTypeMapping TypeName="DB37Model.ApprovalStatustbl">
+        <MappingFragment StoreEntitySet="ApprovalStatustbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AttendanceMarkingtbls">
+      <EntityTypeMapping TypeName="DB37Model.AttendanceMarkingtbl">
+        <MappingFragment StoreEntitySet="AttendanceMarkingtbl">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="AttendanceDate" ColumnName="AttendanceDate" />
+          <ScalarProperty Name="AttendanceStatusId" ColumnName="AttendanceStatusId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AttendanceStatustbls">
+      <EntityTypeMapping TypeName="DB37Model.AttendanceStatustbl">
+        <MappingFragment StoreEntitySet="AttendanceStatustbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassSubjecttbls">
+      <EntityTypeMapping TypeName="DB37Model.ClassSubjecttbl">
+        <MappingFragment StoreEntitySet="ClassSubjecttbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classtbls">
+      <EntityTypeMapping TypeName="DB37Model.Classtbl">
+        <MappingFragment StoreEntitySet="Classtbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leavestbls">
+      <EntityTypeMapping TypeName="DB37Model.Leavestbl">
+        <MappingFragment StoreEntitySet="Leavestbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="LeaveDescription" ColumnName="LeaveDescription" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateEnd" ColumnName="DateEnd" />
+          <ScalarProperty Name="ApprovalStatusId" ColumnName="ApprovalStatusId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Markingstbls">
+      <EntityTypeMapping TypeName="DB37Model.Markingstbl">
+        <MappingFragment StoreEntitySet="Markingstbl">
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+          <ScalarProperty Name="TermId" ColumnName="TermId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parentstbls">
+      <EntityTypeMapping TypeName="DB37Model.Parentstbl">
+        <MappingFragment StoreEntitySet="Parentstbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PrntPassword" ColumnName="PrntPassword" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+          <ScalarProperty Name="ApprovalStatusId" ColumnName="ApprovalStatusId" />
+          <ScalarProperty Name="MailAddress" ColumnName="MailAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParentStudenttbls">
+      <EntityTypeMapping TypeName="DB37Model.ParentStudenttbl">
+        <MappingFragment StoreEntitySet="ParentStudenttbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolEventstbls">
+      <EntityTypeMapping TypeName="DB37Model.SchoolEventstbl">
+        <MappingFragment StoreEntitySet="SchoolEventstbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="EventDescription" ColumnName="EventDescription" />
+          <ScalarProperty Name="EventDate" ColumnName="EventDate" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Charges" ColumnName="Charges" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentClasstbls">
+      <EntityTypeMapping TypeName="DB37Model.StudentClasstbl">
+        <MappingFragment StoreEntitySet="StudentClasstbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentLefttbls">
+      <EntityTypeMapping TypeName="DB37Model.StudentLefttbl">
+        <MappingFragment StoreEntitySet="StudentLefttbl">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="DateLeft" ColumnName="DateLeft" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Studentstbls">
+      <EntityTypeMapping TypeName="DB37Model.Studentstbl">
+        <MappingFragment StoreEntitySet="Studentstbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="StdPassword" ColumnName="StdPassword" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+          <ScalarProperty Name="ApprovalStatusId" ColumnName="ApprovalStatusId" />
+          <ScalarProperty Name="ActiveStatusId" ColumnName="ActiveStatusId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjectstbls">
+      <EntityTypeMapping TypeName="DB37Model.Subjectstbl">
+        <MappingFragment StoreEntitySet="Subjectstbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Termstbls">
+      <EntityTypeMapping TypeName="DB37Model.Termstbl">
+        <MappingFragment StoreEntitySet="Termstbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeTabletbls">
+      <EntityTypeMapping TypeName="DB37Model.TimeTabletbl">
+        <MappingFragment StoreEntitySet="TimeTabletbl">
+          <ScalarProperty Name="WeeksDay" ColumnName="WeeksDay" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+          <ScalarProperty Name="LectureTime" ColumnName="LectureTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="School_Students">
+      <EntityTypeMapping TypeName="DB37Model.School_Students">
+        <MappingFragment StoreEntitySet="School_Students">
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Show_Events">
+      <EntityTypeMapping TypeName="DB37Model.Show_Events">
+        <MappingFragment StoreEntitySet="Show_Events">
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="EventDescription" ColumnName="EventDescription" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Charges" ColumnName="Charges" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShowAllActiveStudents">
+      <EntityTypeMapping TypeName="DB37Model.ShowAllActiveStudent">
+        <MappingFragment StoreEntitySet="ShowAllActiveStudents">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShowAllInActiveStudents">
+      <EntityTypeMapping TypeName="DB37Model.ShowAllInActiveStudent">
+        <MappingFragment StoreEntitySet="ShowAllInActiveStudents">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AllTermMarksOfAClass" FunctionName="DB37Model.Store.AllTermMarksOfAClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.AllTermMarksOfAClass_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TermName" ColumnName="TermName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AllTermMarksOfEachStudent" FunctionName="DB37Model.Store.AllTermMarksOfEachStudent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.AllTermMarksOfEachStudent_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TermName" ColumnName="TermName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AttendanceofEachStudent" FunctionName="DB37Model.Store.AttendanceofEachStudent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.AttendanceofEachStudent_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="Attendance_Status" ColumnName="Attendance_Status" />
+          <ScalarProperty Name="AttendanceDate" ColumnName="AttendanceDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AttendanceofWholeClass" FunctionName="DB37Model.Store.AttendanceofWholeClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.AttendanceofWholeClass_Result">
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="AttendanceDate" ColumnName="AttendanceDate" />
+          <ScalarProperty Name="AttendanceStatus" ColumnName="AttendanceStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AverageOfSchool" FunctionName="DB37Model.Store.AverageOfSchool">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.AverageOfSchool_Result">
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="AverageOfClass" ColumnName="AverageOfClass" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ShowClassWiseActiveStudents" FunctionName="DB37Model.Store.ShowClassWiseActiveStudents">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.ShowClassWiseActiveStudents_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ShowClassWiseInActiveStudents" FunctionName="DB37Model.Store.ShowClassWiseInActiveStudents">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.ShowClassWiseInActiveStudents_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ShowStudentInfo" FunctionName="DB37Model.Store.ShowStudentInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.ShowStudentInfo_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="StudentsOfClass" FunctionName="DB37Model.Store.StudentsOfClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.StudentsOfClass_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SubjectsOfStudent" FunctionName="DB37Model.Store.SubjectsOfStudent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.SubjectsOfStudent_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SubjectWiseMarkingForEachStudent" FunctionName="DB37Model.Store.SubjectWiseMarkingForEachStudent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.SubjectWiseMarkingForEachStudent_Result">
+          <ScalarProperty Name="Student_Name" ColumnName="Student Name" />
+          <ScalarProperty Name="RegNo" ColumnName="RegNo" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+          <ScalarProperty Name="TermName" ColumnName="TermName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SubjectWiseMarksForClass" FunctionName="DB37Model.Store.SubjectWiseMarksForClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.SubjectWiseMarksForClass_Result">
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Student_Name" ColumnName="Student Name" />
+          <ScalarProperty Name="Registration_Number" ColumnName="Registration Number" />
+          <ScalarProperty Name="Subject_Name" ColumnName="Subject Name" />
+          <ScalarProperty Name="Total_Marks" ColumnName="Total Marks" />
+          <ScalarProperty Name="Obtained_Marks" ColumnName="Obtained Marks" />
+          <ScalarProperty Name="TermName" ColumnName="TermName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TermWiseMarksOfAClass" FunctionName="DB37Model.Store.TermWiseMarksOfAClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.TermWiseMarksOfAClass_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TermName" ColumnName="TermName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TermWiseMarksOfEachStudent" FunctionName="DB37Model.Store.TermWiseMarksOfEachStudent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.TermWiseMarksOfEachStudent_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TermName" ColumnName="TermName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TimeTableForEachClass" FunctionName="DB37Model.Store.TimeTableForEachClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.TimeTableForEachClass_Result">
+          <ScalarProperty Name="WeekDayName" ColumnName="WeekDayName" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+          <ScalarProperty Name="LectureTime" ColumnName="LectureTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TotalMarksOfAllClasses" FunctionName="DB37Model.Store.TotalMarksOfAllClasses">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.TotalMarksOfAllClasses_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TotalMarksOfEachClass" FunctionName="DB37Model.Store.TotalMarksOfEachClass">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.TotalMarksOfEachClass_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TotalMarksOfEachStudent" FunctionName="DB37Model.Store.TotalMarksOfEachStudent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB37Model.TotalMarksOfEachStudent_Result">
+          <ScalarProperty Name="RegistrationNumber" ColumnName="RegistrationNumber" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="ObtainedMarks" ColumnName="ObtainedMarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
